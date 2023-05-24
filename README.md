@@ -1,3 +1,6 @@
+=IF(E2<>"", RANK(E2, $E$2:$E$52), "")
+
+
 Learning Objectives:
 * Write a formula using IFERROR or IF.
 * Correctly utilize absolute cell references to allow for copying formulas.
